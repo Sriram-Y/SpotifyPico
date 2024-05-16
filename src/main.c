@@ -1,14 +1,14 @@
-#include <stdio.h>
+#include <stdlib.h> // malloc() free()
 
-
-// include pico libraries
 #include "pico/stdlib.h"
+
 #include "../lib/display/LCD_1in3.h"
 #include "../lib/display/DEV_Config.h"
 #include "../lib/display/GUI_Paint.h"
 #include "../lib/display/ImageData.h"
 #include "../lib/display/Debug.h"
-#include <stdlib.h> // malloc() free()
+
+#include "spotify.h"
 
 // quick test program to flash the waveshare lcd
 int main()

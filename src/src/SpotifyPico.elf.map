@@ -1102,9 +1102,9 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ../lib/Pico_code/c/lib/Fonts/libFonts.a(font20.c.obj)
  .text          0x0000000000000000        0x0 ../lib/Pico_code/c/lib/Fonts/libFonts.a(font24CN.c.obj)
  .bss           0x0000000000000000        0x0 ../lib/Pico_code/c/lib/Fonts/libFonts.a(font24CN.c.obj)
- .text          0x0000000000000000        0x0 /tmp/ccE7NVvb.o
- .data          0x0000000000000000        0x0 /tmp/ccE7NVvb.o
- .bss           0x0000000000000000        0x0 /tmp/ccE7NVvb.o
+ .text          0x0000000000000000        0x0 /tmp/ccPBLd1J.o
+ .data          0x0000000000000000        0x0 /tmp/ccPBLd1J.o
+ .bss           0x0000000000000000        0x0 /tmp/ccPBLd1J.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1284,7 +1284,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nof
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccE7NVvb.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccPBLd1J.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2268,7 +2268,7 @@ LOAD ../lib/Pico_code/c/lib/Icm20948/libIcm20948.a
 LOAD ../lib/Pico_code/c/lib/Fonts/libFonts.a
 LOAD ../lib/Pico_code/c/lib/LCD/libLCD.a
 LOAD ../lib/Pico_code/c/lib/Config/libConfig.a
-LOAD /tmp/ccE7NVvb.o
+LOAD /tmp/ccPBLd1J.o
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/10.3.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2382,7 +2382,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000078e       0x32 ../lib/Pico_code/c/lib/Fonts/libFonts.a(font24CN.c.obj)
  .ARM.attributes
-                0x00000000000007c0       0x22 /tmp/ccE7NVvb.o
+                0x00000000000007c0       0x22 /tmp/ccPBLd1J.o
  .ARM.attributes
                 0x00000000000007e2       0x1e /usr/lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
