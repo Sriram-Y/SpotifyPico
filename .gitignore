@@ -5,5 +5,5 @@
 /src/lib
 /src/pico-sdk
 /src/src
-CMakeCache.txt
 /build
+/src/CMakeCache.txt
