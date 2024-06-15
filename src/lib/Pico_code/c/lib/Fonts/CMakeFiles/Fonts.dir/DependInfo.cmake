@@ -17,12 +17,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/dev/SpotifyPico/lib/Pico_code/c/lib/Fonts/font8.c" "lib/Pico_code/c/lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj" "gcc" "lib/Pico_code/c/lib/Fonts/CMakeFiles/Fonts.dir/font8.c.obj.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.
